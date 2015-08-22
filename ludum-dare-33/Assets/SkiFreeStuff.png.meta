@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ba99cb46376d32d4ba00d30de4ea4271
-timeCreated: 1440213897
+timeCreated: 1440256188
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -361,8 +361,8 @@ TextureImporter:
         y: 292
         width: 32
         height: 41
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .399574757, y: .421618938}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeStuff_24
       rect:
@@ -371,8 +371,8 @@ TextureImporter:
         y: 292
         width: 29
         height: 41
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .33747232, y: .42684415}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeStuff_25
       rect:
@@ -381,8 +381,8 @@ TextureImporter:
         y: 292
         width: 29
         height: 41
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .359635442, y: .432070106}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeStuff_26
       rect:
@@ -391,8 +391,8 @@ TextureImporter:
         y: 292
         width: 23
         height: 41
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .434795886, y: .42684415}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeStuff_27
       rect:
@@ -401,8 +401,8 @@ TextureImporter:
         y: 292
         width: 26
         height: 37
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .376399696, y: .471047878}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeStuff_28
       rect:
@@ -411,8 +411,8 @@ TextureImporter:
         y: 252
         width: 26
         height: 37
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .401119739, y: .453677624}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeStuff_29
       rect:
