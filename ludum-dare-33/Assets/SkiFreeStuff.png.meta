@@ -1,10 +1,92 @@
 fileFormatVersion: 2
 guid: ba99cb46376d32d4ba00d30de4ea4271
-timeCreated: 1440207953
+timeCreated: 1440208754
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: skiier_0
+    21300000: SkiFreeStuff_0
+    21300002: SkiFreeStuff_1
+    21300004: SkiFreeStuff_2
+    21300006: SkiFreeStuff_3
+    21300008: SkiFreeStuff_4
+    21300010: SkiFreeStuff_5
+    21300012: SkiFreeStuff_6
+    21300014: SkiFreeStuff_7
+    21300016: SkiFreeStuff_8
+    21300018: SkiFreeStuff_10
+    21300020: SkiFreeStuff_11
+    21300022: SkiFreeStuff_12
+    21300024: SkiFreeStuff_13
+    21300026: SkiFreeStuff_14
+    21300028: SkiFreeStuff_15
+    21300030: SkiFreeStuff_16
+    21300032: SkiFreeStuff_17
+    21300034: SkiFreeStuff_18
+    21300036: SkiFreeStuff_19
+    21300038: SkiFreeStuff_20
+    21300040: SkiFreeStuff_21
+    21300042: SkiFreeStuff_22
+    21300044: SkiFreeStuff_23
+    21300046: SkiFreeStuff_24
+    21300048: SkiFreeStuff_25
+    21300050: SkiFreeStuff_26
+    21300052: SkiFreeStuff_27
+    21300054: SkiFreeStuff_28
+    21300056: SkiFreeStuff_29
+    21300058: SkiFreeStuff_30
+    21300060: SkiFreeStuff_31
+    21300062: SkiFreeStuff_32
+    21300064: SkiFreeStuff_33
+    21300066: SkiFreeStuff_34
+    21300068: SkiFreeStuff_35
+    21300070: SkiFreeStuff_36
+    21300072: SkiFreeStuff_37
+    21300074: SkiFreeStuff_38
+    21300076: SkiFreeStuff_39
+    21300078: SkiFreeStuff_40
+    21300080: SkiFreeStuff_41
+    21300082: SkiFreeStuff_42
+    21300084: SkiFreeStuff_43
+    21300086: SkiFreeStuff_44
+    21300088: SkiFreeStuff_45
+    21300090: SkiFreeStuff_46
+    21300092: SkiFreeStuff_47
+    21300094: SkiFreeStuff_48
+    21300096: SkiFreeStuff_49
+    21300098: SkiFreeStuff_50
+    21300100: SkiFreeStuff_52
+    21300102: SkiFreeStuff_53
+    21300104: SkiFreeStuff_54
+    21300106: SkiFreeStuff_55
+    21300108: SkiFreeStuff_56
+    21300110: SkiFreeStuff_57
+    21300112: SkiFreeStuff_58
+    21300114: SkiFreeStuff_59
+    21300116: SkiFreeStuff_60
+    21300118: SkiFreeStuff_61
+    21300120: SkiFreeStuff_62
+    21300122: SkiFreeStuff_63
+    21300124: SkiFreeStuff_64
+    21300126: SkiFreeStuff_65
+    21300128: SkiFreeStuff_66
+    21300130: SkiFreeStuff_67
+    21300132: SkiFreeStuff_68
+    21300134: SkiFreeStuff_69
+    21300136: SkiFreeStuff_70
+    21300138: SkiFreeStuff_71
+    21300140: SkiFreeStuff_72
+    21300142: SkiFreeStuff_73
+    21300144: SkiFreeStuff_74
+    21300146: SkiFreeStuff_75
+    21300148: SkiFreeStuff_76
+    21300150: SkiFreeStuff_77
+    21300152: SkiFreeStuff_78
+    21300154: SkiFreeStuff_79
+    21300156: SkiFreeStuff_80
+    21300158: SkiFreeStuff_81
+    21300160: SkiFreeStuff_82
+    21300162: SkiFreeStuff_83
+    21300164: SkiFreeStuff_84
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -50,15 +132,835 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: skiier_0
+    - name: SkiFreeStuff_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 273
-        height: 583
+        y: 372
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 372
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 372
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 372
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 372
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 372
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 372
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 372
+        width: 28
+        height: 34
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 372
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 338
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 338
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 338
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 338
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 338
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 338
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 340
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 292
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 292
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_22
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 292
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_23
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 292
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 292
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 292
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_26
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 292
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 292
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 230
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 230
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 230
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 195
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 195
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_36
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 195
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_37
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 195
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_38
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 195
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_39
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_40
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 195
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_41
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 195
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 152
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_44
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 152
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_45
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 152
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 152
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_47
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 152
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_48
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 152
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_49
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 152
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_50
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 152
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_52
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 152
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 108
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_55
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 108
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_56
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 108
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_57
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 108
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_58
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 108
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_59
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 108
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_61
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 78
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_62
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 78
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 78
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_64
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 78
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 78
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_66
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 78
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_67
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 78
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_68
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 78
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_69
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 78
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_70
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 78
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_72
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 48
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 48
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_74
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_75
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 48
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_76
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 48
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_78
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 48
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_79
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 48
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_80
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 48
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_81
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 48
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_83
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeStuff_84
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
