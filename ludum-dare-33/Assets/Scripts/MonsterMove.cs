@@ -11,16 +11,20 @@ public class MonsterMove : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     Vector2 moveDirection;
+    MonsterEat eat;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        eat = GetComponent<MonsterEat>();
     }
 
     void FixedUpdate()
     {
         moveDirection.Set(0, 0);
+
+        if (eat.Dead) return;
 
         if (!FloatUtils.CloseEnough(Input.GetAxis("Horizontal"), 0f))
         {

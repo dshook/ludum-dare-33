@@ -6,19 +6,30 @@ public class MonsterEat : MonoBehaviour
     Animator anim;
     public ScoreManager score;
 
-    public int currentFood = 100;
+    public int currentFood;
     public int maxFood = 100;
 
     float hungryEvery = 1f;
-    float hungerTimer = 0f;
+    float hungerTimer = 0f; 
+
+    public bool Dead
+    {
+        get
+        {
+            return currentFood <= 0;
+        }
+    }
 
     void Start()
     {
+        currentFood = maxFood;
         anim = GetComponent<Animator>();
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        if (Dead) return;
+
         if (other.gameObject.CompareTag("Food"))
         {
             anim.SetTrigger("Eating");
@@ -30,11 +41,18 @@ public class MonsterEat : MonoBehaviour
 
     void Update()
     {
+        if (Dead) return;
+
         hungerTimer += Time.deltaTime;
         if (hungerTimer > hungryEvery)
         {
             hungerTimer = 0f;
             currentFood -= 1;
+
+            if (Dead)
+            {
+                anim.SetTrigger("Dead");
+            }
         }
     }
 }
