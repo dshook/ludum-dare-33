@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using Util;
 
 public class SkiSpawner : MonoBehaviour
 {
@@ -8,21 +8,32 @@ public class SkiSpawner : MonoBehaviour
 
     public float spawnTime = 3f;
     float timer = 0f;
+    float maxPlayerDistance = 20f;
+    GameObject player;
 
     void Start()
     {
-
         spawnArea = GetComponent<RectTransform>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
     {
         timer += Time.deltaTime;
 
-        if (timer > spawnTime)
+        var bounds = Camera.main.OrthographicBounds();
+        var areaBounds =  new Bounds(transform.position, new Vector3(spawnArea.rect.width, spawnArea.rect.height, 0.0f));
+        
+        var intersected = bounds.Intersects(areaBounds);
+        var closeEnough = Vector2.Distance(spawnArea.position, player.transform.position) < maxPlayerDistance;
+        //only spawn if we can't see any of the spawn area but yet the area is close enough
+        if (!intersected && closeEnough )
         {
-            Spawn();
-            timer = 0;
+            if (timer > spawnTime)
+            {
+                Spawn();
+                timer = 0;
+            }
         }
     }
 

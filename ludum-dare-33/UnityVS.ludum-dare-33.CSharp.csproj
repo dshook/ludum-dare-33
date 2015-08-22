@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\SkiierMotion.cs" />
     <Compile Include="Assets\Scripts\SkiSpawner.cs" />
+    <Compile Include="Assets\Scripts\Util\CameraExtensions.cs" />
     <Compile Include="Assets\Scripts\Util\DrawEditorRectangle.cs" />
     <Compile Include="Assets\Scripts\Util\FloatUtils.cs" />
   </ItemGroup>
