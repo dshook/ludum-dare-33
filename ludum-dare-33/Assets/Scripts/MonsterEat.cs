@@ -4,6 +4,7 @@ using System.Collections;
 public class MonsterEat : MonoBehaviour
 {
     Animator anim;
+    public ScoreManager score;
 
     void Start()
     {
@@ -15,6 +16,7 @@ public class MonsterEat : MonoBehaviour
         if (other.gameObject.CompareTag("Food"))
         {
             anim.SetTrigger("Eating");
+            score.Eat();
             Destroy(other.gameObject);
         }
     }
