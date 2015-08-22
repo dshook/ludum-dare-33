@@ -30,11 +30,9 @@ public class DrawEditorRectangle : MonoBehaviour
 
     void DrawBox()
     {
-        //if (Input.GetKey (KeyCode.S)) {
         Debug.DrawLine(topLeft, topRight, color);
         Debug.DrawLine(topRight, bottomRight, color);
         Debug.DrawLine(bottomRight, bottomLeft, color);
         Debug.DrawLine(bottomLeft, topLeft, color);
-        //}
     }
 }

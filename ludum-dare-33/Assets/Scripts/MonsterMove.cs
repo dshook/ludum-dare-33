@@ -31,7 +31,8 @@ public class MonsterMove : MonoBehaviour
         {
             moveDirection.Set(moveDirection.x, Input.GetAxis("Vertical") * speed);
         }
-        rb.AddForce(moveDirection);
+
+        rb.MovePosition(rb.position + moveDirection * Time.fixedDeltaTime);
 
         if (moveDirection.x < 0)
         {
