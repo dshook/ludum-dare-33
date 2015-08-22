@@ -13,11 +13,14 @@ public class SkiierMotion : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     Dictionary<Direction, Vector2> forceDictionary;
+    GameObject player;
+    float maxDistance = 20f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player");
 
         forceDictionary = new Dictionary<Direction, Vector2>()
         {
@@ -39,6 +42,14 @@ public class SkiierMotion : MonoBehaviour
 
         anim.SetInteger("Direction", (int)direction);
         rb.AddForce(forceDictionary[direction]);
+
+        //destroy the skiier if they are lower down the mountain than the player and far enough away
+        if (transform.position.y < player.transform.position.y
+            && Vector2.Distance(transform.position, player.transform.position) > maxDistance
+        )
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Turn()
