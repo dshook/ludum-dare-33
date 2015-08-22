@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 64e08cdfcf72e014e92035098dbe2899
+timeCreated: 1440207730
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tree
+    21300002: rock
+    21300004: pole
+    21300006: lift
+    21300008: bench
+    21300010: moguls_1
+    21300012: moguls_2
+    21300014: mushroom_rock
+    21300016: treeperson_1
+    21300018: treeperson_2
+    21300020: firetree_0
+    21300022: firetree_1
+    21300024: firetree_2
+    21300026: firetree_3
+    21300028: mighty_scotch_pine
+    21300030: sign_1
+    21300032: sign_2
+    21300034: sign_3
+    21300036: sign_start_left
+    21300038: start_sign_right
+    21300040: race_sign_left
+    21300042: race_sign_right
+    21300044: SkiFreeObjects_0
+    21300046: sad_sign
+    21300048: finish_left
+    21300050: finish_right
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tree
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rock
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 220
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pole
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 220
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lift
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 220
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bench
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 220
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moguls_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 220
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moguls_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 220
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mushroom_rock
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 220
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: treeperson_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 220
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: treeperson_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 220
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firetree_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firetree_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 153
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firetree_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 153
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firetree_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 153
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mighty_scotch_pine
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 153
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sign_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 153
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sign_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 153
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sign_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 153
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sign_start_left
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 153
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: start_sign_right
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: race_sign_left
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 121
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: race_sign_right
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 121
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkiFreeObjects_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 121
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sad_sign
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 121
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: finish_left
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 121
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: finish_right
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 121
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
