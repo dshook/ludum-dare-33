@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Direction.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GUIHunger.cs" />
     <Compile Include="Assets\Scripts\MonsterEat.cs" />
     <Compile Include="Assets\Scripts\MonsterMove.cs" />
