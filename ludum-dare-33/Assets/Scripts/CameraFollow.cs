@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
-using UnityEngine.Networking;
 
-public class CameraFollow : NetworkBehaviour
+public class CameraFollow : MonoBehaviour
 {
     public float smoothing = 5f;
 
     Transform cameraTransform;
-    Vector3 offset = new Vector3(1, 15, -22);
+    Vector3 offset = new Vector3(0, 0, -10);
 
     void Start()
     {
@@ -15,7 +14,6 @@ public class CameraFollow : NetworkBehaviour
 
     void Update()
     {
-        if (!isLocalPlayer) return;
         Vector3 targetCamPos = transform.position + offset;
         cameraTransform.position = Vector3.Lerp(cameraTransform.position, targetCamPos, smoothing * Time.deltaTime);
     }
