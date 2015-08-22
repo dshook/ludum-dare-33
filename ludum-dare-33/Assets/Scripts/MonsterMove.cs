@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 using Assets.Scripts;
-using System.Collections.Generic;
+using Util;
 
 public class MonsterMove : MonoBehaviour
 {
@@ -21,13 +20,14 @@ public class MonsterMove : MonoBehaviour
 
     void FixedUpdate()
     {
+        moveDirection.Set(0, 0);
 
-        if (Input.GetAxis("Horizontal") != 0f)
+        if (!FloatUtils.CloseEnough(Input.GetAxis("Horizontal"), 0f))
         {
             moveDirection.Set(Input.GetAxis("Horizontal") * speed, 0);
         }
 
-        if (Input.GetAxis("Vertical") != 0f)
+        if (!FloatUtils.CloseEnough(Input.GetAxis("Vertical"), 0f))
         {
             moveDirection.Set(moveDirection.x, Input.GetAxis("Vertical") * speed);
         }
@@ -41,7 +41,7 @@ public class MonsterMove : MonoBehaviour
         {
             direction = Direction.E;
         }
-        else
+        else if (FloatUtils.CloseEnough(moveDirection.x, 0, 0.01f))
         {
             direction = Direction.S;
         }
