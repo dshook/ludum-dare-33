@@ -5,6 +5,8 @@ public class SkiSpawner : MonoBehaviour
 {
     RectTransform spawnArea;
     public GameObject skiierPrefab;
+    public GameObject noobPrefab;
+    public GameObject boarderPrefab;
 
     public float spawnTime = 3f;
     float timer = 0f;
@@ -44,6 +46,21 @@ public class SkiSpawner : MonoBehaviour
             Random.Range(spawnArea.position.y + spawnArea.rect.yMin, spawnArea.position.y + spawnArea.rect.yMax )
         );
 
-        Instantiate(skiierPrefab, spawnpoint, Quaternion.identity);
+        GameObject prefab;
+        var prefabChance = Random.Range(0f, 1f);
+        if (prefabChance < 0.5f)
+        {
+            prefab = skiierPrefab;
+        }
+        else if (prefabChance < 0.8f)
+        {
+            prefab = boarderPrefab;
+        }
+        else
+        {
+            prefab = noobPrefab;
+        }
+
+        Instantiate(prefab, spawnpoint, Quaternion.identity);
     }
 }
