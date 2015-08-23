@@ -12,4 +12,4 @@ A play on Ski Free where you are the monster of course.  Run up to the top of th
 #Credits
 * Dillon Shook - Programming, Game Design
 * Brandon Valosek - Music and SFX
-* Wing Wang Wao - (Sprites)[http://www.vg-resource.com/thread-8939-post-168194.html]
+* Wing Wang Wao - [Sprites](http://www.vg-resource.com/thread-8939-post-168194.html)
