@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.1.1p4</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -72,15 +70,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Direction.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GUIHunger.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LiftSpawner.cs" />
     <Compile Include="Assets\Scripts\MonsterEat.cs" />
     <Compile Include="Assets\Scripts\MonsterMove.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
-    <Compile Include="Assets\Scripts\SkiierMotion.cs" />
     <Compile Include="Assets\Scripts\SkiSpawner.cs" />
+    <Compile Include="Assets\Scripts\SkiierMotion.cs" />
     <Compile Include="Assets\Scripts\Util\CameraExtensions.cs" />
     <Compile Include="Assets\Scripts\Util\DrawEditorRectangle.cs" />
     <Compile Include="Assets\Scripts\Util\FloatUtils.cs" />
