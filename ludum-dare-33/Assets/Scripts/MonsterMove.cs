@@ -5,6 +5,8 @@ using Util;
 public class MonsterMove : MonoBehaviour
 {
     public float speed = 5f;
+    public Transform minYPosition;
+
     Direction lastDirection = Direction.S;
     Direction direction = Direction.S;
 
@@ -34,6 +36,11 @@ public class MonsterMove : MonoBehaviour
         if (!FloatUtils.CloseEnough(Input.GetAxis("Vertical"), 0f))
         {
             moveDirection.Set(moveDirection.x, Input.GetAxis("Vertical") * speed);
+        }
+
+        if (transform.position.y < minYPosition.position.y)
+        {
+            moveDirection.Set(moveDirection.x, Mathf.Max(0, moveDirection.y));
         }
 
         rb.MovePosition(rb.position + moveDirection * Time.fixedDeltaTime);
