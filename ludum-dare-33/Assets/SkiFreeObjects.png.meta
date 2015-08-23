@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 64e08cdfcf72e014e92035098dbe2899
-timeCreated: 1440210875
+timeCreated: 1440289405
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,7 +85,7 @@ TextureImporter:
         width: 28
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_1
       rect:
@@ -95,7 +95,7 @@ TextureImporter:
         width: 24
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_2
       rect:
@@ -105,7 +105,7 @@ TextureImporter:
         width: 26
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_5
       rect:
@@ -115,7 +115,7 @@ TextureImporter:
         width: 28
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_6
       rect:
@@ -125,7 +125,7 @@ TextureImporter:
         width: 26
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_10
       rect:
@@ -135,7 +135,7 @@ TextureImporter:
         width: 23
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_11
       rect:
@@ -145,14 +145,14 @@ TextureImporter:
         width: 32
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_13
       rect:
         serializedVersion: 2
-        x: 143
+        x: 161
         y: 220
-        width: 42
+        width: 24
         height: 12
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -175,7 +175,7 @@ TextureImporter:
         width: 16
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_18
       rect:
@@ -185,7 +185,7 @@ TextureImporter:
         width: 8
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_19
       rect:
@@ -195,7 +195,7 @@ TextureImporter:
         width: 22
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_20
       rect:
@@ -205,7 +205,7 @@ TextureImporter:
         width: 22
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_21
       rect:
@@ -215,7 +215,7 @@ TextureImporter:
         width: 22
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_22
       rect:
@@ -225,7 +225,7 @@ TextureImporter:
         width: 22
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_23
       rect:
@@ -235,7 +235,7 @@ TextureImporter:
         width: 32
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_24
       rect:
@@ -245,7 +245,7 @@ TextureImporter:
         width: 40
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_25
       rect:
@@ -255,7 +255,7 @@ TextureImporter:
         width: 40
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_26
       rect:
@@ -265,7 +265,7 @@ TextureImporter:
         width: 44
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_27
       rect:
@@ -275,7 +275,7 @@ TextureImporter:
         width: 42
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_28
       rect:
@@ -285,7 +285,7 @@ TextureImporter:
         width: 42
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_29
       rect:
@@ -295,7 +295,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_30
       rect:
@@ -305,7 +305,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_31
       rect:
@@ -315,7 +315,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_32
       rect:
@@ -325,7 +325,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_33
       rect:
@@ -335,7 +335,7 @@ TextureImporter:
         width: 50
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_34
       rect:
@@ -345,7 +345,7 @@ TextureImporter:
         width: 50
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkiFreeObjects_35
       rect:
@@ -355,7 +355,7 @@ TextureImporter:
         width: 87
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -24,7 +24,7 @@ public class MonsterMove : MonoBehaviour
     {
         moveDirection.Set(0, 0);
 
-        if (eat.Dead) return;
+        if (eat.dead || eat.eating) return;
 
         if (!FloatUtils.CloseEnough(Input.GetAxis("Horizontal"), 0f))
         {

@@ -42,7 +42,7 @@ public class SkiierMotion : MonoBehaviour
         {
             crashedTimer += Time.fixedDeltaTime;
 
-            if (crashedTimer > 2.5f)
+            if (crashedTimer > 2.0f)
             {
                 anim.SetTrigger("GetUp");
                 crashed = false;

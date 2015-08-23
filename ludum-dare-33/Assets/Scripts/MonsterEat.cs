@@ -8,11 +8,15 @@ public class MonsterEat : MonoBehaviour
 
     public int currentFood;
     public int maxFood = 100;
+    public int peopleFood = 5;
 
-    float hungryEvery = 1f;
+    public bool eating = false;
+
+    public float hungryEvery = 1f;
+    public float eatTime = 0.8f;
     float hungerTimer = 0f; 
 
-    public bool Dead
+    public bool dead
     {
         get
         {
@@ -28,20 +32,31 @@ public class MonsterEat : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (Dead) return;
+        if (dead) return;
 
         if (other.gameObject.CompareTag("Food"))
         {
             anim.SetTrigger("Eating");
             score.Eat();
-            currentFood = Mathf.Min(maxFood, currentFood + 10);
+            currentFood = Mathf.Min(maxFood, currentFood + peopleFood);
             Destroy(other.gameObject);
+            
+            eating = true;
+            StartCoroutine(DoneEating());
         }
+    }
+
+    IEnumerator DoneEating()
+    {
+        yield return new WaitForSeconds(eatTime);
+
+        eating = false;
+        yield return null;
     }
 
     void Update()
     {
-        if (Dead) return;
+        if (dead) return;
 
         hungerTimer += Time.deltaTime;
         if (hungerTimer > hungryEvery)
@@ -49,7 +64,7 @@ public class MonsterEat : MonoBehaviour
             hungerTimer = 0f;
             currentFood -= 1;
 
-            if (Dead)
+            if (dead)
             {
                 anim.SetTrigger("Dead");
             }
