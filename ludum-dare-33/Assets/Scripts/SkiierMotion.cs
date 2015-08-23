@@ -18,7 +18,7 @@ public class SkiierMotion : MonoBehaviour
 
     bool crashed = false;
     float crashedTimer = 0f;
-    Vector2 crashDirection;
+    int crashDirection;
 
     void Start()
     {
@@ -47,8 +47,7 @@ public class SkiierMotion : MonoBehaviour
                 anim.SetTrigger("GetUp");
                 crashed = false;
                 //push off
-                int crashDirectionSign = (int)crashDirection.normalized.x;
-                rb.AddForce(new Vector2(5 * -crashDirectionSign, 0));
+                rb.AddForce(new Vector2(7 * crashDirection, 0));
             }
             return;
         }
@@ -78,7 +77,15 @@ public class SkiierMotion : MonoBehaviour
             anim.SetTrigger("Crash");
             crashed = true;
             crashedTimer = 0f;
-            crashDirection = rb.velocity;
+
+            //determine crash direction for x based on the hit point and collider we hit
+            crashDirection = -1;
+            if (other.contacts[0].point.x >= other.collider.bounds.center.x)
+            {
+                crashDirection = 1;
+            }
+
+
             rb.velocity = Vector2.zero;
         }
     }

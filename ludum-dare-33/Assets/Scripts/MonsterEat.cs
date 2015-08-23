@@ -14,7 +14,7 @@ public class MonsterEat : MonoBehaviour
 
     public float hungryEvery = 1f;
     public float eatTime = 0.8f;
-    float hungerTimer = 0f; 
+    float hungerTimer = 0f;
 
     public bool dead
     {
@@ -40,7 +40,7 @@ public class MonsterEat : MonoBehaviour
             score.Eat();
             currentFood = Mathf.Min(maxFood, currentFood + peopleFood);
             Destroy(other.gameObject);
-            
+
             eating = true;
             StartCoroutine(DoneEating());
         }
