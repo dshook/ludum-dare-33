@@ -16,6 +16,10 @@ public class SkiierMotion : MonoBehaviour
     GameObject player;
     float maxDistance = 20f;
 
+    bool crashed = false;
+    float crashedTimer = 0f;
+    Vector2 crashDirection;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -34,6 +38,21 @@ public class SkiierMotion : MonoBehaviour
     {
         turnTimer += Time.fixedDeltaTime;
 
+        if (crashed)
+        {
+            crashedTimer += Time.fixedDeltaTime;
+
+            if (crashedTimer > 2.5f)
+            {
+                anim.SetTrigger("GetUp");
+                crashed = false;
+                //push off
+                int crashDirectionSign = (int)crashDirection.normalized.x;
+                rb.AddForce(new Vector2(5 * -crashDirectionSign, 0));
+            }
+            return;
+        }
+
         if (turnTimer > turnEvery)
         {
             Turn();
@@ -49,6 +68,18 @@ public class SkiierMotion : MonoBehaviour
         )
         {
             Destroy(gameObject);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (!other.gameObject.CompareTag("Player"))
+        {
+            anim.SetTrigger("Crash");
+            crashed = true;
+            crashedTimer = 0f;
+            crashDirection = rb.velocity;
+            rb.velocity = Vector2.zero;
         }
     }
 

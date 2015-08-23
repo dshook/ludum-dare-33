@@ -140,12 +140,11 @@ public class PrefabBrushEditor : EditorWindow
         // Convert to world space
         Ray ray = HandleUtility.GUIPointToWorldRay(Event.current.mousePosition);
         RaycastHit hit;
-        bool result;
 
         if (_layerSelection == "Everything")
-            result = Physics.Raycast(ray, out hit, scene_view.camera.farClipPlane, 0);
+            Physics.Raycast(ray, out hit, scene_view.camera.farClipPlane, 0);
         else
-            result = Physics.Raycast(ray, out hit, scene_view.camera.farClipPlane, 1 << LayerMask.NameToLayer(_layerSelection));
+            Physics.Raycast(ray, out hit, scene_view.camera.farClipPlane, 1 << LayerMask.NameToLayer(_layerSelection));
 
         // Find our ray's intersection through the selected layer
         //if (result)
