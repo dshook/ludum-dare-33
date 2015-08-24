@@ -5,6 +5,7 @@ public class MonsterEat : MonoBehaviour
 {
     Animator anim;
     public ScoreManager score;
+    public AudioClip eatClip;
 
     public int currentFood;
     public int maxFood = 100;
@@ -15,6 +16,7 @@ public class MonsterEat : MonoBehaviour
     public float hungryEvery = 1f;
     public float eatTime = 0.8f;
     float hungerTimer = 0f;
+    AudioSource audioSource;
 
     public bool dead
     {
@@ -28,6 +30,7 @@ public class MonsterEat : MonoBehaviour
     {
         currentFood = maxFood;
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -42,6 +45,10 @@ public class MonsterEat : MonoBehaviour
             Destroy(other.gameObject);
 
             eating = true;
+            if (audioSource != null)
+            {
+                audioSource.PlayOneShot(eatClip);
+            }
             StartCoroutine(DoneEating());
         }
     }
